@@ -14,7 +14,7 @@ const SOCKET = socket => {
             socket.emit('loginSuccess');
             socket.broadcast.emit('system', api.success({val}));
         }else {
-            let msg = '已经有相同角色'
+            const msg = '已经有相同角色'
             socket.emit('nickExisted', api.error({msg}))
         }
     })

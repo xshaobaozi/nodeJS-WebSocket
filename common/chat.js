@@ -4,11 +4,7 @@ class Chat {
     }
     //检查用户
     checkUser(info) {
-        if(this.list.findIndex(arr => arr === info) > -1){
-            return true
-        }else{
-            return false
-        }
+        return this.list.findIndex(arr => arr === info) > -1
     }
     getListCount() {
         return this.list.length;
@@ -27,9 +23,6 @@ class Chat {
         if(this.checkUser(info)){
             const index = this.list.findIndex(item => item === info);
             this.list.splice(index, 1);
-            return true;
-        }else{
-            return fasle;
         }
     }
     // //发送消息
