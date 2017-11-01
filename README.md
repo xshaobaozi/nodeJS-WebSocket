@@ -10,23 +10,23 @@
 ```
 
 
-##chat.js
+## chat.js
 
     用户类 所有用户的方法都由此类实现现
 
-##socket
+## socket
 
     所有node socket事件都在这里定义
 
-##api
+## api
 
     简单定义后端的api状态
 
-##config/config
+## config/config
 
     后端服务器端口
 
 
-##www
+## www
 
     前端相关文件
