@@ -2,4 +2,9 @@
 
 基与 WebSock 的在线聊天  
 
-纯粹试试weboscket 和 node 后端通信而已=。= 并没有界面的 只有相关功能~
+纯粹试试weboscket 和 node 后端通信而已=。= 并没有界面的 只有相关功能
+
+```
+	node server.js
+	打开www/dist/index.html
+```~
